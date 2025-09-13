@@ -2,7 +2,7 @@ import express from "express"
 const app = express();
 
 app.get("/", (req, res) => {
-    res.send("Khanh Dep Trai")
+    res.send("Khanh Dep Trai HEHEHEHEH")
 })
 
 app.listen(8080, () => {
