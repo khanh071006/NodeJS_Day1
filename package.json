@@ -32,6 +32,7 @@
   "dependencies": {
     "@types/express": "^5.0.3",
     "@types/node": "^24.3.3",
+    "dotenv": "16.4.7",
     "express": "^5.1.0",
     "typescript": "^5.9.2"
   },
