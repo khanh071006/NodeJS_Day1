@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/khanh071006/NodeJS_Day1#readme",
   "dependencies": {
-    "express": "^5.1.0"
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.3.3",
+    "express": "^5.1.0",
+    "typescript": "^5.9.2"
   }
 }
