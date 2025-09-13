@@ -4,9 +4,19 @@
   "description": "",
   "main": "dist/app.js",
   "scripts": {
-    "start": "tsc && node dist/app.js",
-    "dev": "tsc && node dist/app.js",
+    "start": "nodemon",
+    "dev": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "nodemonConfig": {
+    "watch": [
+      "src"
+    ],
+    "ext": "ts",
+    "ignore": [
+      "node_modules"
+    ],
+    "exec": "ts-node ./src/app.ts"
   },
   "repository": {
     "type": "git",
@@ -24,5 +34,9 @@
     "@types/node": "^24.3.3",
     "express": "^5.1.0",
     "typescript": "^5.9.2"
+  },
+  "devDependencies": {
+    "nodemon": "3.1.9",
+    "ts-node": "10.9.2"
   }
 }
