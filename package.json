@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/khanh071006/NodeJS_Day1/issues"
   },
-  "homepage": "https://github.com/khanh071006/NodeJS_Day1#readme"
+  "homepage": "https://github.com/khanh071006/NodeJS_Day1#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
