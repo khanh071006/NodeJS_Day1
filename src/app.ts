@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 8080
 
 app.get("/", (req, res) => {
     res.render("home.ejs")
-})
+})s
 
 app.listen(8080, () => {
     console.log(`Server is running on ${PORT} PORT`)
